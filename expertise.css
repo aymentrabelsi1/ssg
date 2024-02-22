@@ -1,0 +1,310 @@
+
+body{background-color: rgba(0, 0, 0, 0.045);
+
+}
+
+
+
+    #h1-expertise-top-line  {
+      background: linear-gradient(45deg,rgb(10, 133, 102),rgba(0, 0, 255, 0.578));
+      background-clip: text;
+      -webkit-background-clip: text; /* For WebKit/Blink browsers */
+      color: transparent;
+      padding: 8px;
+      cursor: pointer;
+   margin: 10vw auto 0vw;
+      text-align: center;
+      width: fit-content;
+      font-size: 2vw;
+  }
+
+
+
+
+
+    #our-expertise-section {
+      background-color: rgba(0, 0, 0, 0.010);
+  
+  }
+  
+  #security-and-consultancy {
+  
+      display: flex;
+      gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+    }
+  
+  #text-media-1,
+  #text-media-2{
+     
+      display: flex; /* Make #text-media a flex container */
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+ 
+      width: 47.6vw;
+      height: 21vw;
+      transition: 0.4s ease-in-out;
+  }
+
+
+  #text-media-1{
+    border-radius: 8px;
+    background-image: url(secure.png);background-position: center;background-size: cover;}
+  #text-media-2{
+    border-radius: 8px;
+    background-image: url(consultancy.jpg);background-position: center;background-size: cover;}
+
+
+  #text-media-1 p, 
+  #text-media-2 p
+  {background-color: rgba(0, 0, 0, 0.842);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+  left: 0;
+  bottom: -80%;
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+  line-height: 1.7;
+font-size: 1vw;
+  transition: 0.5s ease-out;
+  }
+
+
+
+  #text-media-1:hover,
+  #text-media-2:hover {scale: 0.94;}
+
+
+
+
+
+
+
+  #text-media-1:hover p,
+  #text-media-2:hover p
+  {bottom:0;background-color: rgba(7, 39, 86, 0.967);}
+
+
+
+
+      #introduction-expertise{
+          padding: 2rem;
+          font-size: 1.2vw;
+          font-weight: 500;
+          line-height: 3vw;
+         margin: 1rem auto;
+      max-width: 80vw;
+          border-radius: 10px;
+          cursor: pointer;
+          background-color: rgb(241, 241, 241);
+          color: black;
+          
+   
+   
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.497);
+   background-image: url(quote.png);
+   background-size: 4vw;
+   background-repeat: no-repeat;
+   background-position-y: 10%;
+   background-position-x: 96%;
+   background-color: rgba(255, 255, 255, 0.5);
+   transition: 0.3s ease-in-out;
+
+    }
+
+
+
+  
+
+    #introduction-expertise:hover{
+      background-color: rgba(4, 40, 94, 0.875);
+      color: rgba(255, 255, 255, 0.696);
+      scale: 0.99;
+    }
+  
+  #h-6{width: fit-content;
+    margin: 2rem auto;
+    padding: 10px;
+    max-width: 88%;
+    font-size: 2vw;
+    border-radius: 8px;
+   color: aliceblue;
+   border: 3px solid black;
+    background:linear-gradient(to right, rgb(85, 5, 122) ,rgb(5, 184, 172));
+}
+  
+  
+  
+  
+#last-div-box{
+  display: flex;
+
+justify-content: center;
+align-items: center;
+gap: 0.2rem;
+
+margin: 1rem 0rem 4rem;
+
+
+min-height: 14rem;
+
+}
+
+
+  
+      #last-div-box div{
+        
+ 
+        border-radius: 8px;
+        text-align: center;
+        width: 19vw;
+        height:11vw;  
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        /* flex-grow: 1; */
+        box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.497); 
+        position: relative;
+        overflow: hidden;
+        transition: 0.5s ease-in;
+        margin: 0.1rem 0rem;
+      }
+
+
+      #last-div-box div p{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.815);
+      height: 100%;
+      width: 100%;
+
+text-align: center;
+color: white;
+transition: 0.6s ease-in-out;
+padding-top: 40%;
+left: -100%;
+font-size: 1.2vw;
+
+      }
+  
+      #last-div-box div:hover p{left: 0;}
+        
+        
+
+        
+
+  
+
+    #last-div-box div:nth-child(1){background-image: url(analysis.webp);
+    background-size: cover;
+    background-position: center;
+    }
+    #last-div-box div:nth-child(2){background-image: url(Risk-Advisory.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    #last-div-box div:nth-child(3){background-image: url(crisis.avif);
+    background-size: cover;
+    background-position: center;
+    }
+    #last-div-box div:nth-child(4){background-image: url(risk-managment.png);
+    background-size: cover;
+    background-position: center;
+    }
+    #last-div-box div:nth-child(5){background-image: url(Training.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+  
+    #last-div-box div:hover{
+
+      cursor: pointer;
+      
+
+      box-shadow: 4px 4px 6px rgba(0, 0, 255, 0.497);
+
+      scale: 0.9;
+    
+      
+    }
+  
+
+
+
+    @media (max-width:800px) 
+    {
+      #text-media-1, 
+      #text-media-2 {width:48vw ;height: 27vw;} 
+      #text-media-1 p, 
+      #text-media-2 p {font-size: 1.2vh;padding: 8px;}
+    }
+  
+    
+    @media (max-width:715px) 
+    {
+      #text-media-1, 
+      #text-media-2 {width:60rem;height: 40vw;} 
+      #text-media-1 p, 
+      #text-media-2 p {font-size: 2vw;} 
+  
+      #last-div-box{flex-wrap: wrap;margin-bottom: 5rem;}
+      #last-div-box div{min-width: 30vw;min-height: 20vw;
+      
+      flex-grow: 1;}
+      #last-div-box div p{font-size: 2vw;}
+    
+    }
+
+
+
+
+
+
+    @media (max-width:1000px) {
+      #h1-expertise-top-line {margin-top: 8rem;}
+      
+    }
+  
+    @media (max-width:500px) {
+      #h1-expertise-top-line {font-size: 3vw;margin-top: 11rem;}
+      
+    }
+    
+    
+  
+    @media (max-width:900px)
+    {
+      #introduction-expertise{font-size:1.8vw;line-height: 4vw;padding: 2rem;}
+    }
+    @media (max-width:500px)
+    {
+      #introduction-expertise{font-size: 2.8vw;line-height: 5vw;padding: 1rem;}
+    }
+
+
+    
+    
+
+
+    
+  
+        
+
+
+    
+ 
+        
+
+    
+
+
+
+
+
+
